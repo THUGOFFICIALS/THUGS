@@ -29,8 +29,8 @@ from userbot.utils import admin_cmd
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
-NO_ADMIN = "`I am not an admin!! Chutiya Sala`"
-NO_PERM = "`I don't have sufficient permissions! Ask The Owner To gibe me Rights😞`"
+NO_ADMIN = "`I am not an admin!! `"
+NO_PERM = "`I don't have sufficient permissions! Ask The Owner To gib me Rights😞`"
 NO_SQL = "`Running on Non-SQL mode!`"
 
 CHAT_PP_CHANGED = "`Chat Picture Changed`"
@@ -143,7 +143,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully! Abb Nacho Bencho 💃🕺`")
+        await promt.edit("`Promotion done `")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -232,7 +232,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Whacking the pest!`")
+    await bon.edit("`lavde ki gand me danda de dia!`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id,
@@ -539,7 +539,7 @@ async def gspider(gspdr):
                 f"CHAT: {gspdr.chat.title}(`{gspdr.chat_id}`)")
 
 
-#@register(outgoing=True, pattern="^.delusers(?: |$)(.*)")
+#@register(outgoing=True, pattern="^.bhoot(?: |$)(.*)")
 @borg.on(admin_cmd(pattern=r"delusers(?: |$)(.*)"))
 @errors_handler
 async def rm_deletedacc(show):
@@ -549,7 +549,7 @@ async def rm_deletedacc(show):
         return
     con = show.pattern_match.group(1)
     del_u = 0
-    del_status = "`No deleted accounts found, Group is cleaned as Hell`"
+    del_status = "`No deleted accounts found, Group is cleaned as paradise`"
 
     if con != "clean":
         await show.edit("`Searching for zombie accounts...`")
