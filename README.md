@@ -1,7 +1,15 @@
-# †hê Hêllẞø†
+# Thug bot
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](https://t.me/kraken_the_badass) Also join support channel and group :- https://t.me/HellBot_Official Enjoy Your Bot!!💝
+This is the one and only official HellBot Userbot made by [@Kraken_The_BadASS](https://t.me/kraken_the_badass) Also join support channel and group :- https://t.me/HellBot_Official Enjoy Your Bot
+
+
+<p align="center">
+    <a href="https://github.com/THUGOFFICIALS/THUGS"><img src="https://i.postimg.cc/MKF46Jzq/IMG-20201022-184213-361.jpg" alt="THUG" width=400px></a>
+    <br>
+    <br>
+</p>
+
 
 
 # The owner would not be responsible for any kind of bans due to the bot...
