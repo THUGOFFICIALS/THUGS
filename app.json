@@ -1,6 +1,6 @@
 {
-  "name": "Hêllẞø†",
-  "description": "The best userbot made by @Kraken_The_BadASS. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @HellBot_Official ",
+  "name": "THUGS",
+  "description": "The best userbot made by RHUGS. Made with Love Join @THUGS_SUPPORT ",
   "logo": "https://telegra.ph/file/7decf235312af8536e9aa.jpg ",
     "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/HellBoy-OP/HellBot/",
-  "website": "https://github.com/HellBoy-OP/HellBot/",
-  "success_url": "https://t.me/HellBot_Official",
+  "repository": "https://github.com/THUGOFFICIALS/THUGS/",
+  "website": "https://github.com/THUGOFFICIALS/THUGS/",
+  "success_url": "https://t.me/thugs_support",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Kraken_The_BadASS.",
+      "description": "Fill your Full name or Username.",
       "value": "",
       "required": false
     },
