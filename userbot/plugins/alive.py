@@ -9,13 +9,13 @@ pm_caption = "🔥🔥**Hêllẞø† IS ONLINE🔥🔥\n\n\n"
 
 pm_caption += f"**MASTER**       : {DEFAULTUSER}\n\n"
 
-pm_caption += "😈😈**THUGBOT**😈😈         : __0.01__\n\n"
+pm_caption += "🤖🤖**THUGBOT**🤖🤖        : __0.01__\n\n"
 
-pm_caption += "⚠️⚠️**CHANNEL**⚠️⚠️     : [JOIN](https://t.me/THUG_UPDATE)\n\n"
+pm_caption += "⚠️⚠️**CHANNEL**⚠️⚠️      : [JOIN](https://t.me/THUG_UPDATE)\n\n"
 
-pm_caption += "🔱🔱**GROUP**🔱🔱.         : [JOIN](https://t.me/THUG_SUPPORT)\n\n"
+pm_caption += "🏢🏢**SUPPORT**🏢🏢.       : [JOIN](https://t.me/THUG_SUPPORT)\n\n"
 
-pm_caption += "🔥🔥**CREATOR🔥🔥      : [THUG](https://t.me/brokendeadskull)\n\n"
+pm_caption += "👼👼**GOD**👼👼          : [THUG](https://t.me/brokendeadskull)\n\n"
 
 pm_caption += "[┈┈┈┈┈┈▕▔╲┈┈┈┈┈┈\n┈┈┈┈┈┈┈▏▕┈THUGS\n┈┈┈┈┈┈┈▏▕▂▂▂┈┈┈\n▂▂▂▂▂▂╱┈▕▂▂▂▏┈┈\n▉▉▉▉▉┈┈┈▕▂▂▂▏┈┈\n▉▉▉▉▉┈┈┈▕▂▂▂▏┈┈\n▔▔▔▔▔▔╲▂▕▂▂▂▏┈┈\n](https://t.me/thugs_support)\n\n"
 #@command(outgoing=True, pattern="^.alive$")
