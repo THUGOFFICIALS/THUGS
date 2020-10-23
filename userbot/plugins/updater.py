@@ -1,4 +1,4 @@
-#"""Update UserBot Code (FOR Hêllẞø† USERBOT)
+#"""Update UserBot Code (FOR THUG USERBOT)
 #Syntax: .update
 #\nAll Credits goes to © @Kraken_The_BadASS
 #\nFor this awasome plugin.\nPorted from PpaperPlane Extended"""
@@ -101,7 +101,7 @@ async def upstream(ups):
 
     if not changelog and not force_updateme:
         await ups.edit(
-            f'\n`Your` __Hêllẞø†__ `is`  **up-to-date**  `with`  **[[{ac_br}]]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n')
+            f'\n`Your` __THUGBOT__ `is`  **up-to-date**  `with`  **[[{ac_br}]]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n')
         repo.__del__()
         return
 
@@ -125,9 +125,9 @@ async def upstream(ups):
 
     if force_updateme:
         await ups.edit(
-            '`Force-Updating to latest stable Hêllẞø† code, please wait sur😅😅...`')
+            '`Force-Updating to latest stable THIG code, please wait 😅...`')
     else:
-        await ups.edit('`Updating your` **Hêllẞø†** `please wait for 10 mins then type .alive/.ping/.awake/.help/.test to see if I am On... \n\n          __Hêllẞø†__')
+        await ups.edit('`Updating your` **THUGBOT†** `please wait for 10 mins then type .alive/.ping/.awake/.help/.test to see if I am On... \n\n          __Hêllẞø†__')
     # We're in a Heroku Dyno, handle it's memez.
     if Var.HEROKU_API_KEY is not None:
         import heroku3
@@ -135,7 +135,7 @@ async def upstream(ups):
         heroku_app = None
         heroku_applications = heroku.apps()
         if not Var.HEROKU_APP_NAME:
-            await ups.edit('`Please set up the HEROKU_APP_NAME variable to be able to update Hêllẞø†.`')
+            await ups.edit('`Please set up the HEROKU_APP_NAME variable to be able to update THUGBOT.`')
             repo.__del__()
             return
         for app in heroku_applications:
@@ -144,11 +144,11 @@ async def upstream(ups):
                 break
         if heroku_app is None:
             await ups.edit(
-                f'{txt}\n`Invalid Heroku credentials for updating Hêllẞø† dyno.`'
+                f'{txt}\n`Invalid Heroku credentials for updating  dyno.`'
             )
             repo.__del__()
             return
-        await ups.edit('`Updating your Hêllẞø†.... .`'
+        await ups.edit('`Updating your THUG.... .`'
                        )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
