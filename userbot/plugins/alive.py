@@ -7,21 +7,17 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 PM_IMG = "https://telegra.ph/file/f34675b4e94d4290c0b6b.mp4"
 pm_caption = "🔥🔥**Hêllẞø† IS ONLINE🔥🔥\n\n\n"
 
-pm_caption += f"⚔️⚔️**MASTER**⚔️⚔️       : {DEFAULTUSER}\n\n"
+pm_caption += f"**MASTER**       : {DEFAULTUSER}\n\n"
 
-pm_caption += "🛡️🛡️**TELETHON**🛡️🛡️   : 1.15.0 \n\n"
+pm_caption += "😈😈**THUGBOT**😈😈         : __0.01__\n\n"
 
-pm_caption += "😈😈**Hêllẞø†**😈😈         : __V-1.1__\n\n"
+pm_caption += "⚠️⚠️**CHANNEL**⚠️⚠️     : [JOIN](https://t.me/THUG_UPDATE)\n\n"
 
-pm_caption += "⚠️⚠️**CHANNEL**⚠️⚠️     : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n\n"
+pm_caption += "🔱🔱**GROUP**🔱🔱.         : [JOIN](https://t.me/THUG_SUPPORT)\n\n"
 
-pm_caption += "🔱🔱**GROUP**🔱🔱.         : [ᴊᴏɪɴ](https://t.me/HellBot_Official_Chat)\n\n"
+pm_caption += "🔥🔥**CREATOR🔥🔥      : [THUG](https://t.me/brokendeadskull)\n\n"
 
-pm_caption += "😎😎**LICENSE**😎😎       : [ӀíϲҽղՏҽ](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)\n\n"
-
-pm_caption += "🔥🔥**CREATOR🔥🔥      : [HellBot-Owner](https://t.me/kraken_the_badass)\n\n"
-
-pm_caption += " [...▄███▄███▄\n....█████████\n.......▀█████▀\n............▀█▀\n](https://t.me/hellbot_official)\n\n"
+pm_caption += "[┈┈┈┈┈┈▕▔╲┈┈┈┈┈┈\n┈┈┈┈┈┈┈▏▕┈THUGS\n┈┈┈┈┈┈┈▏▕▂▂▂┈┈┈\n▂▂▂▂▂▂╱┈▕▂▂▂▏┈┈\n▉▉▉▉▉┈┈┈▕▂▂▂▏┈┈\n▉▉▉▉▉┈┈┈▕▂▂▂▏┈┈\n▔▔▔▔▔▔╲▂▕▂▂▂▏┈┈\n](https://t.me/thugs_support)\n\n"
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
