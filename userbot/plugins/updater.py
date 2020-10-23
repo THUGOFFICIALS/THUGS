@@ -1,4 +1,4 @@
-#"""Update UserBot Code (FOR THUG USERBOT)
+#"""Update UserBot Code (FOR Hêllẞø† USERBOT)
 #Syntax: .update
 #\nAll Credits goes to © @Kraken_The_BadASS
 #\nFor this awasome plugin.\nPorted from PpaperPlane Extended"""
@@ -19,8 +19,8 @@ requirements_path = path.join(
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
-GIT_REPO_NAME = "HellBot"
-UPSTREAM_REPO_URL = "https://github.com/THUGOFFICIALS/THUGS"
+GIT_REPO_NAME = "THUGS"
+UPSTREAM_REPO_URL = "https://github.com/THUGOFFICIALS/THUGS.git"
 
 async def gen_chlog(repo, diff):
     ch_log = ''
@@ -101,7 +101,7 @@ async def upstream(ups):
 
     if not changelog and not force_updateme:
         await ups.edit(
-            f'\n`Your` __THUGBOT__ `is`  **up-to-date**  `with`  **[[{ac_br}]]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n')
+            f'\n`Your` __Hêllẞø†__ `is`  **up-to-date**  `with`  **[[{ac_br}]]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n')
         repo.__del__()
         return
 
@@ -125,9 +125,9 @@ async def upstream(ups):
 
     if force_updateme:
         await ups.edit(
-            '`Force-Updating to latest stable THIG code, please wait 😅...`')
+            '`Force-Updating to latest stable THUGS code, please wait sur😅😅...`')
     else:
-        await ups.edit('`Updating your` **THUGBOT†** `please wait for 10 mins then type .alive/.ping/.awake/.help/.test to see if I am On... \n\n          __Hêllẞø†__')
+        await ups.edit('`Updating your` **Hêllẞø†** `please wait for 10 mins then type .alive/.ping/.awake/.help/.test to see if I am On... \n\n          __THUGS__')
     # We're in a Heroku Dyno, handle it's memez.
     if Var.HEROKU_API_KEY is not None:
         import heroku3
@@ -135,7 +135,7 @@ async def upstream(ups):
         heroku_app = None
         heroku_applications = heroku.apps()
         if not Var.HEROKU_APP_NAME:
-            await ups.edit('`Please set up the HEROKU_APP_NAME variable to be able to update THUGBOT.`')
+            await ups.edit('`Please set up the HEROKU_APP_NAME variable to be able to update Hêllẞø†.`')
             repo.__del__()
             return
         for app in heroku_applications:
@@ -144,11 +144,11 @@ async def upstream(ups):
                 break
         if heroku_app is None:
             await ups.edit(
-                f'{txt}\n`Invalid Heroku credentials for updating  dyno.`'
+                f'{txt}\n`Invalid Heroku credentials for updating THUGS dyno.`'
             )
             repo.__del__()
             return
-        await ups.edit('`Updating your THUG.... .`'
+        await ups.edit('`Updating your THUGBOT.... .`'
                        )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -165,7 +165,7 @@ async def upstream(ups):
             await ups.edit(f'{txt}\n`Here is the error log:\n{error}`')
             repo.__del__()
             return
-        await ups.edit('`Updated Hêllẞø† Successfully Sur🔥🔥\n'
+        await ups.edit('`Updated THUGBOT Successfully 🔥🔥\n'
                        'Restarting, please wait...5 mins...then type .ping to check if I am On!!!😐`')
     else:
         # Classic Updater, pretty straightforward.
